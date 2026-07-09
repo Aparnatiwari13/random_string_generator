@@ -1,16 +1,95 @@
-# React + Vite
+# 🔐 Random String Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern React application that generates secure random strings with customizable options. Users can adjust the string length, include numbers and symbols, generate new strings instantly, and copy the generated string to the clipboard.
+---
+## 🚀 Features
 
-Currently, two official plugins are available:
+- ✅ Generate random strings instantly
+- ✅ Adjustable string length (5–30 characters)
+- ✅ Include or exclude numbers
+- ✅ Include or exclude special symbols
+- ✅ Copy generated string to clipboard
+- ✅ Password strength indicator (Weak / Medium / Strong)
+- ✅ Modern and responsive user interface
+- ✅ Built using React Hooks
+---
+## 🛠️ Technologies Used
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+---
+## ⚛️ React Hooks Used
+- **useState** – Manages the application state.
+- **useCallback** – Optimizes the random string generation function.
+- **useEffect** – Automatically generates a new string whenever settings change.
+---
+## 📂 Project Structure
+```
+random_string_generator/
+│
+├── public/
+├── src/
+│   ├── pages/
+│   │   └── Home.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+---
+## ⚙️ Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Clone the repository
 
-## React Compiler
+```bash
+git clone https://github.com/Aparnatiwari13/random_string_generator.git
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Navigate to the project folder
 
-## Expanding the Oxlint configuration
+```bash
+cd random_string_generator
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Future Improvements
+
+- Dark Mode
+- Custom character sets
+- Exclude similar characters
+- Password history
+- Download generated strings
+- Better password strength algorithm
+
+---
+
+## 👩‍💻 Author
+
+**Aparna Tiwari**
+
+GitHub:
+https://github.com/Aparnatiwari13
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
